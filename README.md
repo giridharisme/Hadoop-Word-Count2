@@ -1,16 +1,3 @@
-Description
------------
-
-Simple implementation of Word-Count example. 
-
-Input is read from directory */tmp/wordcount/in*, and output is written to */tmp/wordcount/out*.
-
-Compile
--------
-
-$ mvn clean install
-
-Run
----
-
-$ mvn exec:java -Dexec.mainClass=com.igalia.wordcount.App
+hadoop jar /home/k/Desktop/wordcount-0.0.1-SNAPSHOT.jar com.igalia.wordcount.WordCount /giri/pro/mydoc.txt /giri/pro/out
+localhost:50070 for name node
+resource manager 
